@@ -29,14 +29,3 @@ geocode.geoocdeAddress(argv.address,function(errorMessage, results){
         });
     }
 });
-
-/*weather.getWeather(27.16,78.05,function(errorMessage, weatherResults){
-    if(errorMessage){
-        console.log(errorMessage);
-    }
-    else{
-        console.log(JSON.stringify(weatherResults, undefined, 2));
-    }
-});*/
-
-//https://api.darksky.net/forecast/62a915d4f83e2fb34e182f7cf411ccc0/37.8267,-122.4233
